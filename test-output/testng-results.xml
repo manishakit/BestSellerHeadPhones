@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter the text “Headphones” in the search box.]]>
+    </line>
+    <line>
+      <![CDATA[Hit enter]]>
+    </line>
+    <line>
+      <![CDATA[Create list of all the best seller headphones]]>
+    </line>
+    <line>
+      <![CDATA[Refresh the page to update the cart]]>
+    </line>
+    <line>
+      <![CDATA[Assert Number of headphone(s) in the cart is/are equal to available in the search page]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="77557" started-at="2019-07-03T04:25:57Z" finished-at="2019-07-03T04:27:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="77557" started-at="2019-07-03T04:25:57Z" finished-at="2019-07-03T04:27:15Z">
+      <class name="com.amazon.qa.test.CreateBestSellerHeadPhoneCart">
+        <test-method status="PASS" signature="Initialization()[pri:0, instance:com.amazon.qa.test.CreateBestSellerHeadPhoneCart@56f4468b]" name="Initialization" is-config="true" duration-ms="8908" started-at="2019-07-03T09:55:57Z" finished-at="2019-07-03T09:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialization -->
+        <test-method status="PASS" signature="addAllBestSellerHeadphoneToCart()[pri:0, instance:com.amazon.qa.test.CreateBestSellerHeadPhoneCart@56f4468b]" name="addAllBestSellerHeadphoneToCart" duration-ms="66754" started-at="2019-07-03T09:56:06Z" finished-at="2019-07-03T09:57:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter the text “Headphones” in the search box.]]>
+            </line>
+            <line>
+              <![CDATA[Hit enter]]>
+            </line>
+            <line>
+              <![CDATA[Create list of all the best seller headphones]]>
+            </line>
+            <line>
+              <![CDATA[Refresh the page to update the cart]]>
+            </line>
+            <line>
+              <![CDATA[Assert Number of headphone(s) in the cart is/are equal to available in the search page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addAllBestSellerHeadphoneToCart -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.amazon.qa.test.CreateBestSellerHeadPhoneCart@56f4468b]" name="TearDown" is-config="true" duration-ms="1864" started-at="2019-07-03T09:57:13Z" finished-at="2019-07-03T09:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.amazon.qa.test.CreateBestSellerHeadPhoneCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
